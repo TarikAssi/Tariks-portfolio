@@ -1,0 +1,176 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url(/images/Background\ Logo\ dark.png);
+}
+
+.toppen{
+    display: flex;
+    justify-content: space-around;
+    font-family: helvetica, arial, sans-serif;
+    width: 97.4%;
+    margin: 0 auto;
+    padding: 20px;
+    font-size: 1.8em;
+    background-color: rgba(0, 0, 0, 0.651);
+    border-radius: 0 0 40px 40px;
+    position: fixed;
+    
+}
+.toppen a{
+    text-decoration: none;
+    color: orange;
+}
+.logogoku{
+    width: 60px;
+    margin-top: -15px;
+}
+
+.storlogo{
+    text-align: center;
+    background-image: url(/images/Orange\ lightning.PNG);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 791px;
+}
+.storlogo2{
+    width: 400px;
+    padding: 200px;
+}
+main{
+    display: flex;
+    background-image: url(/images/city.jfif);
+    height: 792px;
+    background-size: cover;
+
+}
+.mig{
+    height: 600px;
+    padding-top: 192px;
+    padding-left: 280px;
+}
+.intro{
+    font-size: 2.2em;
+    margin-top: 90px;
+    color: black;
+    margin-left: 50px;
+    
+
+
+}   
+
+p{
+    
+    font-size: 0.5em;
+    font-family: helvetica, arial, sans-serif;
+    padding-left: 5px;
+    font-weight: bold;
+    
+    display: inline-table;
+    text-align: left;
+    margin-left:40px;
+}
+
+.portfolio{
+    text-align: center;
+    padding-top: 100px;
+}
+.portfoliopic1{
+    width: 800px;
+    text-align: center;
+}    
+
+.portfoliopic2{
+    width: 310px;
+}    
+
+.portfoliopic3{
+    width: 800px;
+}    
+
+.portfoliopic4{
+    width: 350px;
+}    
+
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */  
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color:white;
+    color: black;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+
+    
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: rgba(61, 38, 88, 0.507);
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f223;
+    padding: 30px;
+    margin-bottom: 50px;
+    margin-left: 250px;
+    margin-right: 250px;
+  }
+.lname{
+    background-color: white;
+}
+.fname{
+    background-color: white;
+}
+.subject{
+    background-color:white;
+}
+.container{
+    color:orange;
+    margin-top: 150px;
+    margin-bottom: 100px;
+    font-family: helvetica, arial, sans-serif;
+}
+footer{ 
+    background-color: rgb(235, 122, 17);
+    font-size: 1.2em;
+    display: flex;
+    justify-content: space-between;
+    margin-top: -50px;
+    padding-left: 20px;
+    
+}
+.kontakt{
+    font-size: 4em;
+    text-align: center;
+   font-family: helvetica, arial, sans-serif;
+   padding-bottom: 80px;
+   padding-left: 20px;
+}
+.sociale{
+    width: 100px;
+    padding-right: 20px;
+}
+.cr{
+    padding-top: 30px;
+}
+.toppen a:hover{
+    color: lightblue;
+}
